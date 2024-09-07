@@ -1,0 +1,16 @@
+.root {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  transition: background-color 150ms linear;
+  color: var(--text-color);
+  -webkit-tap-highlight-color: var(--border-color);
+}
+
+@media (hover: hover) {
+  .root:hover {
+    background-color: var(--border-color);
+  }
+}

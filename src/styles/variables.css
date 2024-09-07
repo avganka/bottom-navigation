@@ -1,0 +1,9 @@
+:root {
+  /* Colors */
+  --bg-color: rgb(255, 255, 255);
+  --text-color: rgb(41, 30, 30);
+  --border-color: rgba(0 0 0 / 0.1);
+
+  /* Breakpoins */
+  --container: 1200px;
+}

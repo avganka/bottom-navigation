@@ -1,0 +1,52 @@
+.root {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 58px;
+  background-color: var(--bg-color);
+  opacity: 0.95;
+  border-top: 1px solid var(--border-color);
+  transition:
+    height 0.5s ease-in-out,
+    opacity 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.menu {
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.menu > * {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu > *:hover {
+  color: var(--border-color);
+}
+
+.button {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.visible {
+  height: 58px;
+  opacity: 1;
+}
+
+.hidden {
+  height: 0;
+  opacity: 0;
+}
